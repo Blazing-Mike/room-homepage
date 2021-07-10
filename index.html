@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+  
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+<body>
+
+
+
+<div class="carousel-container fade">
+ 
+ <div class="carousel-item">
+  <div class="image-box">
+    <picture>
+      <source 
+         media="(min-width: 500px)"
+         srcset= "images\desktop-image-hero-1.jpg" 600w>
+         <img src="images/mobile-image-hero-1.jpg" alt="mobile-image-hero-1">
+   </picture>
+  </div>
+  <div class="text-box">
+    
+<h2 class="heading-medium">Discover innovative ways to decorate</h2>
+<p class="para">
+  We provide unmatched quality, comfort, and style for property owners across the country. 
+  Our experts combine form and function in bringing your vision to life. Create a room in your 
+  own style with our collection and make your property a reflection of you and what you love.
+</p>
+<a href="#" class="cta-link">Shop now <img src="images/icon-arrow.svg" alt="icon-arrow" class="arrow-icon"></a>
+  </div>
+
+</div> <!-- carousel item -->
+
+
+<div class="carousel-item">
+<div class="image-box ">
+  <picture>
+    <source 
+       media="(min-width: 500px)"
+       srcset= "images\desktop-image-hero-2.jpg" 600w>
+       <img src="images/mobile-image-hero-2.jpg" alt="mobile-image-hero-1">
+ </picture>
+</div>
+
+<div class="text-box"> 
+<h2 class="heading-medium">  We are available all across the globe</h2>
+<p class="para">  With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+store locator. Any questions? Don't hesitate to contact us today.</p>
+<a href="#" class="cta-link"> Shop now <img src="images/icon-arrow.svg" alt="icon-arrow" class="arrow-icon"></a>
+</div>
+
+</div> <!-- carousel item -->
+
+
+
+<div class="carousel-item">
+<div class="image-box">
+  <picture>
+    <source 
+       media="(min-width: 500px)"
+       srcset= "images\desktop-image-hero-3.jpg" 600w>
+       <img src="images/mobile-image-hero-3.jpg" alt="mobile-image-hero-1">
+ </picture>
+</div>
+
+<div class="text-box">
+<h2 class="heading medium" style="font-size: 2rem;">  Manufactured with the best materials</h2>
+<p class="para"> Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+experience in this industry, we understand what customers want for their home and office. </p>
+<a href="#" class="cta-link">Shop now <img src="images/icon-arrow.svg" alt="icon-arrow" class="arrow-icon"></a>
+</div>
+
+  </div><!-- carousel item -->
+
+  <button class="slider-control">
+    <a class="forward" onclick="plusSlides(1)"><img src="images/icon-angle-left.svg" alt="icon-angle-left" class="forward-img"></a>
+    <a class="Back" onclick="plusSlides(-1)"><img src="images/icon-angle-right.svg" alt="icon-angle-right" class="back-img"></a>
+  </button>
+</div><!-- carousel container -->
+
+
+ <div class="outro-section">
+   <div class="outro-img-1"><img src="images/image-about-dark.jpg" alt="image-about-dark" class="dark-image closing-image"></div>
+  <div class="outro-text">
+    <h3 class="heading-small"> About our furniture</h3>
+  <p class="para">
+    Our multifunctional collection blends design and function to suit your individual taste.
+    Make each room unique, or pick a cohesive theme that best express your interests and what
+    inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+    or anything in between. Product specialists are available to help you create your dream space.
+  </p> 
+  </div>
+
+  <div class="outro-img-2"><img src="images/image-about-light.jpg" alt="image-about-light" class="light-image closing-image"></div> 
+ </div>
+
+ <nav class="navbar">
+  <span class="navbar-toggle" id="js-navbar-toggle">
+    <img src="images/icon-hamburger.svg" alt="" class="navbar-toggle-img">
+ </span>
+<img src="images/logo.svg" alt="logo-img" class="logo">
+
+ 
+
+  <ul class="main-nav" id="js-menu">
+      <li>
+          <a href="#" class="nav-links">Home</a>
+      </li>
+      <li>
+          <a href="#" class="nav-links">Shop</a>
+      </li>
+      <li>
+          <a href="#" class="nav-links">About</a>
+      </li>
+      <li>
+          <a href="#" class="nav-links">Contact us</a>
+      </li>
+  </ul>
+
+</nav>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
